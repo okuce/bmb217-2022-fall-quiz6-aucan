@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "main.py",
+      "setup": "",
+      "run": "python main.py",
+      "input": "",
+      "output": "--------------------\r\n80EF9060-Mus*** Yıl***-2022-11-03\r\n*yag,400tl,100.0tl\r\n*yikama,50tl,12.5tl\r\nİşçilik Oranı:0.25\r\nToplam:562.5tl\r\nServis:Hasan Usta\r\n--------------------\r\n--------------------\r\n80VV1234-Has*** Ton***-2022-11-03\r\n*yikama,50tl,12.5tl\r\n*motor_temizligi,100tl,25.0tl\r\nİşçilik Oranı:0.25\r\nToplam:187.5tl\r\nServis:Hasan Usta\r\n--------------------\r\n--------------------\r\n06PP9658-Hat*** Kur***-2022-11-03\r\n*disk,1600tl,400.0tl\r\n*balata,750tl,187.5tl\r\nİşçilik Oranı:0.25\r\nToplam:2937.5tl\r\nServis:Hasan Usta\r\n--------------------\r\n--------------------\r\n34GG7766-Eli*** Kor***-2022-11-03\r\n*yag,400tl,100.0tl\r\n*yag_filtresi,75tl,18.75tl\r\n*hava_filtresi,110tl,27.5tl\r\n*polen_filtresi,60tl,15.0tl\r\n*yikama,50tl,12.5tl\r\nİşçilik Oranı:0.25\r\nToplam:868.75tl\r\nServis:Hasan Usta\r\n--------------------\r\n--------------------\r\n46TT2154-Şev*** Alt***-2022-11-03\r\n*motor_temizligi,100tl,25.0tl\r\n*balata,750tl,187.5tl\r\n*disk,1600tl,400.0tl\r\n*yag,400tl,100.0tl\r\n*yag_filtresi,75tl,18.75tl\r\n*hava_filtresi,110tl,27.5tl\r\n*polen_filtresi,60tl,15.0tl\r\n*yikama,50tl,12.5tl\r\nİşçilik Oranı:0.25\r\nToplam:3931.25tl\r\nServis:Hasan Usta\r\n--------------------\r\n--------------------\r\n01AA001-Ada*** Val***-2022-11-03\r\n*motor_temizligi,100tl,25.0tl\r\n*balata,750tl,187.5tl\r\n*disk,1600tl,400.0tl\r\n*yag,400tl,100.0tl\r\n*yag_filtresi,75tl,18.75tl\r\n*hava_filtresi,110tl,27.5tl\r\n*polen_filtresi,60tl,15.0tl\r\n*yikama,50tl,12.5tl\r\nİşçilik Oranı:0.25\r\nToplam:3931.25tl\r\nServis:Hasan Usta\r\n--------------------\r\n--------------------\r\n31HH9988-Sad*** Pay***-2022-11-03\r\n*motor_temizligi,100tl,25.0tl\r\n*balata,750tl,187.5tl\r\n*disk,1600tl,400.0tl\r\n*yag,400tl,100.0tl\r\n*yag_filtresi,75tl,18.75tl\r\n*hava_filtresi,110tl,27.5tl\r\n*polen_filtresi,60tl,15.0tl\r\n*yikama,50tl,12.5tl\r\nİşçilik Oranı:0.25\r\nToplam:3931.25tl\r\nServis:Hasan Usta\r\n--------------------",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
