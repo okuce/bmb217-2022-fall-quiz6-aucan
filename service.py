@@ -75,7 +75,7 @@ class Service:
         Returns:
             Service: geriye service türünde bir örnek döndürüyor
         """
-        work_list = ["motor_temizligi","balata","disk"]
+        work_list.extend(["motor_temizligi","balata","disk"])
         return cls.onbin(plate_no,name_surname,work_list)
     
     @classmethod
