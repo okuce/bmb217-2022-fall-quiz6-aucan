@@ -32,7 +32,7 @@ class Service:
         "triger":1250,
     }
 
-    def __init__(self, plate_no:str, name_surname:str, work_list:list[str]) -> None:
+    def __init__(self, plate_no:str, name_surname:str, work_list=[]) -> None:
         """Service constructor
 
         Args:
@@ -47,7 +47,7 @@ class Service:
         self.total = 0
 
     @classmethod
-    def onbin(cls,plate_no:str, name_surname:str, work_list:list[str]=[]):
+    def onbin(cls,plate_no:str, name_surname:str, work_list=[]):
         """onbin bakımı için ön tanımlı iş listesine sahip constructor overload
 
         Args:
@@ -63,7 +63,7 @@ class Service:
         return cls(plate_no,name_surname,work_list)
     
     @classmethod
-    def yirmibin(cls,plate_no:str, name_surname:str, work_list:list[str]=[]):
+    def yirmibin(cls,plate_no:str, name_surname:str, work_list=[]):
         """yirmibin bakımı için ön tanımlı iş listesine sahip constructor overload
 
         Args:
@@ -79,7 +79,7 @@ class Service:
         return cls.onbin(plate_no,name_surname,work_list)
     
     @classmethod
-    def otuzbin(cls,plate_no:str, name_surname:str, work_list:list[str]=[]):
+    def otuzbin(cls,plate_no:str, name_surname:str, work_list=[]):
         """otuzbin bakımı için ön tanımlı iş listesine sahip constructor overload
 
         Args:
